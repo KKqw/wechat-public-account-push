@@ -23,7 +23,7 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oB_ra6RZupbniXigPUeAPlz8cMho',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 's9_Ysc9ig8xjk_baCH-SQKtQG86xPAuJG4O6cni50TA',
+      useTemplateId: 'b8kfqzj8h17N9V4autJwSTiZyjKSNrq6uHoIhkYp_Hg',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '03-12',
       festivals: [
@@ -74,7 +74,32 @@ const USER_CONFIG = {
           type: '*节日', name: 'Ta的农历生日', year: '1996', date: '04-29',
         },
       ],
-     
+    },
+    
+        {
+      // 想要发送的人的名字
+      name: '嘤嘤嘤',
+      // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
+      id: 'oB_ra6RZupbniXigPUeAPlz8cMho',
+      // 使用微信测试号：你想对他发送的模板消息的模板ID
+      useTemplateId: 'hlVlp6RIzelooxgPaoilfcfSUsBD0OqwfvcJnep96Zs',
+      // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
+      horoscopeDate: '04-29',
+      festivals: [
+        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
+        {
+          type: '节日', name: 'KK的生日', year: '1997', date: '03-12',
+        },
+//         {
+//           type: '*节日', name: 'KK的农历生日', year: '1997', date: '03-12',
+//         },
+//         {
+//           type: '节日', name: 'Ta的生日', year: '1996', date: '04-29',
+//         },
+//         {
+//           type: '*节日', name: 'Ta的农历生日', year: '1996', date: '04-29',
+//         },
+      ],
     },
     
   ],
