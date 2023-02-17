@@ -80,7 +80,7 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: '嘤嘤嘤',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'oB_ra6RZupbniXigPUeAPlz8cMho',
+      id: 'oB_ra6RHP-7FIynVjMncToDc4ML8',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: 'qN20d_2Tmd_e5DypQ25wf25PlyGbmH15KUpAH5XgVQs',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
@@ -106,7 +106,7 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: '嘤嘤嘤的今日运势',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'oB_ra6RZupbniXigPUeAPlz8cMho',
+      id: 'oB_ra6RHP-7FIynVjMncToDc4ML8',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: 'T9lpER72GBE4Y95FSBlAZktZXKw5yAET9wYR4Hp2PuY',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
