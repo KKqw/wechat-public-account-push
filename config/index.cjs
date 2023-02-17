@@ -19,22 +19,25 @@ const USER_CONFIG = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: '嘤嘤嘤',
+      name: 'KK',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oB_ra6RZupbniXigPUeAPlz8cMho',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '4bch86RghmwcbcfRo3bi8lPfU76SXHl5-3BUCmp5iws',
+      useTemplateId: 'y9FG_cxud1D3BPO7HEcy0KlBl66CtxZze4hMQNPGGTk',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '03-12',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '生日', name: '嘤嘤嘤', year: '1996', date: '04-29',
+          type: '生日', name: 'KK', year: '1997', date: '03-12',
+        },
+                {
+          type: '*生日', name: 'KK', year: '1997', date: '03-12',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        {
-          type: '生日', name: '康康', year: '1997', date: '03-12',
-        },
+//         {
+//           type: '生日', name: '康康', year: '1997', date: '03-12',
+//         },
       ],
       // 我们在一起已经有xxxx天了的配置
       //customizedDateList: [
